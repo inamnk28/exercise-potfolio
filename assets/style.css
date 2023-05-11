@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    padding-bottom: 3%;
+
+}
+.container-fluid {
+    box-shadow: 0 0 1rem #86e673;
+}
+.card {
+    box-shadow: 0 0 1rem #86e673;
+    transition-duration: 2s;
+}
+.card:hover {
+    transform: scale(.5);
+}
+.display-4 {
+    text-decoration: underline;
+    font-size: large;
+    color: #86e673 ;
+    animation: mover 6s linear infinite;
+}
+@keyframes mover{
+    0% {
+        text-shadow: 0 0 1rem #86e673; 
+    }
+    50% {
+        text-shadow: 0 0 1rem #86e673;
+        transform: translateY(5px);
+    }
+    100% {
+        text-shadow: 0 0 1rem #86e673;
+    }
+
+}
+.container-fluid {
+    box-shadow: 0 0 1rem #86e673;
+}
+input[type=text], select {
+    width: 100px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px #86e673;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #86e673;
+    color: white;
+    padding: 13px 19px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: aliceblue;
+}ing: 20px;
+}
+
